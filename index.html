@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar store scenario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guitar store scenario</h1>
+    
+    <div class="container">
+        <div class="guitar-form">
+            <h2>Thêm sản phẩm</h2>
+            <input type="text" id="guitarName" placeholder="Tên hãng">
+            <input type="text" id="guitarID" placeholder="Mã Guitar">
+            <button id="addGuitarButton">Thêm</button>
+        </div>
+
+        <div class="guitar-list">
+            <h2>User scenario</h2>
+            <p>Người dùng: Là một người đam mê âm nhạc và muốn mua một cây guitar mới.</p>
+            <p>Mục tiêu của người dùng: Tìm kiếm và mua một cây guitar chất lượng.</p>
+            <p>Dự kiến: Người dùng sẽ xem qua danh sách guitar có trong cửa hàng, <br> và thêm cây guitar ưng ý vào giỏ hàng để mua</p>
+        </div>
+
+        <div class="guitar-form">
+            <h2>Sửa thông tin</h2>
+            <input type="text" id="editGuitarID" placeholder="Mã Guitar">
+            <input type="text" id="newGuitarName" placeholder="Tên hãng mới">
+            <button id="editGuitarButton">Sửa</button>
+        </div>
+
+        <div class="guitar-form">
+            <h2>Xóa sản phẩm</h2>
+            <input type="text" id="deleteGuitarID" placeholder="Mã Guitar">
+            <button id="deleteGuitarButton">Xóa</button>
+        </div>
+
+        <div class="guitar-list">
+            <h2>Giỏ hàng</h2>
+            <ul id="guitarUl"></ul>
+        </div>
+
+        <div class="guitar-form">
+            <h2>Tìm kiếm sản phẩm</h2>
+            <input type="text" id="searchGuitar" placeholder="Mã Guitar">
+            <button id="searchGuitarButton">Tìm kiếm</button>
+        </div>
+
+        <!-- guitar list -->
+        <div class="guitar-form">
+            <img src="images/125-1.png">
+            <div class="details">
+                <p id="guitarName">Hãng: Fender</p>
+                <p id="guitarID">Mã guitar: FA-125</p>
+                <p>Loại: Acoustic</p>
+                <p>Giá: $299.99</p>
+
+                <button id="addGuitarButton2">Thêm</button>
+            </div>
+        </div>
+
+        <div class="guitar-form">
+            <img src="images/Gibson.png">
+            <div class="details">
+                <p id="guitarName">Hãng: Gibson</p>
+                <p id="guitarID">Mã guitar: G-200</p>
+                <p>Loại: Electric</p>
+                <p>Giá: $349.99</p>
+
+                <button id="addGuitarButton2">Thêm</button>
+            </div>
+        </div>
+
+        <div class="guitar-form">
+            <img src="images/Yamaha1.png">
+            <div class="details">
+                <p id="guitarName">Hãng: Yamaha</p>
+                <p id="guitarID">Mã guitar: FG-840</p>
+                <p>Loại: Acoustic</p>
+                <p>Giá: $249.99</p>
+
+                <button id="addGuitarButton2">Thêm</button>
+            </div>
+        </div>
+
+        <div class="guitar-form">
+            <img src="images/Yamaha2.png">
+            <div class="details">
+                <p id="guitarName">Hãng: Yamaha</p>
+                <p id="guitarID">Mã guitar: GC-42</p>
+                <p>Loại: Classic</p>
+                <p>Giá: $299.99</p>
+
+                <button id="addGuitarButton2">Thêm</button>
+            </div>
+        </div>
+
+        <div class="guitar-form">
+            <img src="images/gretsch.png">
+            <div class="details">
+                <p id="guitarName">Hãng: Gretsch</p>
+                <p id="guitarID">Mã guitar: G-2410</p>
+                <p>Loại: Electric</p>
+                <p>Giá: $499.99</p>
+
+                <button id="addGuitarButton2">Thêm</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="function.js"></script>
+</body>
+</html>
